@@ -1,13 +1,14 @@
 import { Sequelize } from "sequelize";
 
 const sequelize = new Sequelize(
-  "task_management",
+  "railway",
   "root",
-  "mysql",
+  "TKsUecEUubhYQXVMiMIZmvsSiQRGJduu",
   {
-    host: "localhost",
-    dialect: "mysql"
+    host: "trolley.proxy.rlwy.net",
+    port: 26535,
+    dialect: "mysql",
+    logging: false
   }
 );
-
 export default sequelize;
