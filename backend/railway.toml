@@ -1,6 +1,4 @@
 [build]
 builder = "RAILPACK"
-buildCommand = "npm install --force"
-
 [deploy]
 startCommand = "node server.js"
